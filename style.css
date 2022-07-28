@@ -15,6 +15,7 @@ body,html{
 body{
     background-color: #f2eee9;
     font-family: 'Montserrat Alternates', sans-serif; 
+    
 }
 h1,h2,p{
     margin-top: 0;
@@ -23,6 +24,7 @@ h1,h2,p{
 .container{
     width: 80%;
     margin: 0 auto;
+    max-width: 1440px; 
 }
 .brand{
     font-family: 'Montez', cursive;
@@ -166,7 +168,7 @@ nav .brand-pages a:hover{
 }
 .footer-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-bottom: 50px;
     border-top: 2px solid #dd4053;
     padding-top: 50px;
@@ -177,6 +179,7 @@ nav .brand-pages a:hover{
 }
 .foot{
     width: 25%;
+    text-align: center;
 }
 .foot h1{
     font-family: 'Montez', cursive;
@@ -420,11 +423,35 @@ a:hover{
         height: 400px;
         border-radius: 20px;
     }
+    .store-location{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
     .card{
         flex-direction: column;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
     }
     .card h1{
         margin-top: 20px;
+    }
+    .card p{
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .store-address{
+        text-align: center;
+        width: 100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
     }
   }
   @media only screen and (max-width: 550px) {
@@ -475,7 +502,11 @@ a:hover{
         width: 100%;
         font-size: 2.5rem; 
         text-align: center;
-  }
+    }
+    .store-info p{
+        padding-right: 0;
+    }
+    
   .footer-container{
     flex-direction: column;
     align-items: center;
@@ -484,6 +515,7 @@ a:hover{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 0;
     }
     .foot{
         width: 80%;
@@ -515,8 +547,33 @@ a:hover{
     }
     .journey li{
         margin-bottom: 10px;
+        text-align: center;
+    }
+    .about-info a {
+        margin-left: 0;
     }
     .abt-page-header-info h1{
         text-align:center;
     }
-}
+    .store-location{
+        width: 95%;
+    }
+    .card{
+        width: 100%;
+        padding: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    .card img{
+        height: 150px;
+        width: 95%;
+    }
+    .store-address{
+        width: 100%;
+    }
+    .menu-page-header img{
+        height: 150px;
+    }
+    
+} 
