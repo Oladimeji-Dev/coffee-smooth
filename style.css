@@ -429,9 +429,10 @@ a:hover{
   }
   @media only screen and (max-width: 550px) {
     body{
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
     .container{
+        min-width: 320px;
         width: 100%;
     }
     .brand{
@@ -460,16 +461,19 @@ a:hover{
     }
     header{
         padding: 10px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
-    header img{
-        height: 80px;
+    .header img{
+        height: 150px;
     }
     .brand-links{
         width: 80%;
     }
     .header-heading{
         width: 100%;
-        font-size: 3rem; 
+        font-size: 2.5rem; 
         text-align: center;
   }
   .footer-container{
@@ -477,9 +481,13 @@ a:hover{
     align-items: center;
     justify-content: space-around;
     text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     }
     .foot{
         width: 80%;
+        margin-bottom:20px;
     }
     .map {
         width: 80%;
@@ -487,12 +495,28 @@ a:hover{
         margin: 10px auto;
     }
     .map img{
-        height: 300px;
+        height: 200px;
+        min-width: 320px;
     }
     .abt-page-header-info{
         padding: 10px;
     }
     .menu-page-header img{
-        height: 250px;
+        height: 200px;
+    }
+    .journey{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        padding-top: 0;
+    }
+    .journey li{
+        margin-bottom: 10px;
+    }
+    .abt-page-header-info h1{
+        text-align:center;
     }
 }
