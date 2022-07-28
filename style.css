@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+/* font-family: 'Montez', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Montserrat+Alternates&display=swap');
+/* font-family: 'Montserrat Alternates', sans-serif; */
+
+
+*{
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f2eee9;
+    font-family: 'Montserrat Alternates', sans-serif; 
+}
+h1,h2,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.brand{
+    font-family: 'Montez', cursive;
+    font-size: 2rem;
+    width:50%;
+}
+.brand a{
+    text-decoration: none; 
+    color: #dd4053;
+    transition:  .25s ease-out;
+}
+.brand h1 a:hover{
+    border-bottom: 2px solid #dd4053;
+    padding-bottom: 5px;
+    color: #dd4053;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    
+}
+nav a{
+    transition:  .25s ease-out;
+}
+nav .brand-pages a:hover{
+    border-bottom: 1px solid #dd4053;
+    padding-bottom: 5px;
+}
+.brand-links{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+}
+.brand-pages{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    width: 70%;
+    justify-content: space-between;
+}
+.brand-pages p{
+    margin-right: 10px;
+}
+.brand-pages a{
+    text-decoration: none;
+    color: black;
+}
+.brand-social a{
+    text-decoration: none;
+    color: black;
+}
+.brand-social i {
+    font-size: 1.5rem;
+}
+.brand-social > a{
+    margin-right: 8px;
+}
+.header-heading{
+    width: 50%;
+}
+.header{
+    margin-top: 50px;
+}
+.header h1{
+    font-size:3rem;
+}
+.header p{
+    font-size: 1.3rem;
+}
+.header img{
+    height:315px;
+    width:100%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.about-brand{
+    margin-top: 20px;
+    padding: 25px 0;
+}
+.about-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+.about-info h1{
+    font-family: 'Montez', cursive;
+    width: 35%;
+    font-size: 4rem;
+    text-align: left;
+}
+.about-info p{
+    width: 60% ;
+    text-align: justify;
+    padding-top: 20px;
+}
+.about-info a{
+    padding-top: 20px;
+    text-decoration: none;
+    color: #dd4053;
+    display: block;
+    margin-left: 50px;
+}
+.line{
+    width: 50%;
+    height: 2px;
+    background-color: #dd4053;
+    margin: 50px auto;
+}
+.image-display{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.image-display img{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.map{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.map img{
+
+    padding: 20px;
+    height: 400px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-top: 2px solid #dd4053;
+    padding-top: 50px;
+}
+.foot li{
+    list-style: none;
+    margin-top: 10px;
+}
+.foot{
+    width: 25%;
+}
+.foot h1{
+    font-family: 'Montez', cursive;
+    font-size: 3rem;
+}
+.foot a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.footer-copyright{
+    text-align: center;
+    padding:50px;
+}
+.abt-page-header-info{
+    padding-bottom: 20px;
+}
+.abt-page-header-info h1{
+    font-size: 2.5rem;
+    font-family: 'Montez', cursive;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.abt-page-header-info p{
+    text-align: justify;
+    padding-right: 10px;
+}
+.abt-page-header-image{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+
+}
+
+.abt-page-header-image img{
+    height: 240px;
+    width: 360px;
+    border-radius: 10px;
+    transition:  .25s ease-out;
+}
+.abt-page-header-image img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+.journey {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px 0;
+}
+.journey li{
+    list-style: none;
+    width: 23%;
+}
+.journey h1{
+    font-family: 'Montez', cursive;
+    font-size: 2rem;
+}
+.menu-page-header{
+    padding: 30px;
+}
+.menu-page-header img{
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+}
+.menu-page-display h1{
+    font-family: 'Montez', cursive;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.menu-display{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding:0 20px;
+    margin-bottom: 50px;
+}
+.menu-display img{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.menu-display p{
+    background-color: #dd4053;
+    color: #f2eee9;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    width: 200px;
+    text-align: center;
+    /* padding-top: 10px;
+    margin-top: -10px; */
+}
+.menu-display p span{
+    display: block;
+}
+.menu-display li > span{
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    width: 200px;
+    display: block;
+    padding: 10px;
+     padding-top: 12px;
+    margin-top: -12px;
+}
+.careers p{
+    border-bottom: 2px solid #dd4053;
+    padding-bottom:30px ;
+}
+.store-info p{
+    padding-right: 20% ;
+    text-align: justify;
+}
+.store-location{
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.store-location h1{
+    font-family: 'Montez', cursive;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.store-location .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+}
+.store-location li{
+    padding: 10px;
+}
+.store-location span{
+    color: #dd4053;
+}
+.store-location p{
+    padding-left: 50px;
+    margin-left: 10px;
+}
+.store-location img{
+    height: 240px;
+    width: 360px;
+    border-radius: 10px;
+    transition:  .25s ease-out;
+}
+.foot li a{
+    transition:  .25s ease-out;
+}
+.foot li a:hover{
+    border-bottom: 1px solid #dd4053;
+    padding-bottom: 5px;
+}
+.store-location img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.store-address{
+    width: 60%;
+}
